@@ -1,7 +1,9 @@
 # B.L.A.S.T. 🚀
 **Get ready to blast through speed tests like never before!** 🚀💥
 
-![B.L.A.S.T. Logo](icons/logo128.png)
+<p align="center">
+  <img src="icons/logo512.png" alt="B.L.A.S.T. Logo">
+</p>
 
 **Bots Literally Annihilating Speed Tests**
 
@@ -13,7 +15,6 @@ Welcome to B.L.A.S.T., the ultimate suite of bots designed to dominate speed tes
 - **Aim Trainer**: Precision and speed combined. Hit every target with pinpoint accuracy.
 - **Number Memory**: Remember numbers like a savant. No sequence is too long!
 - **Verbal Memory**: Never forget a word. Our bot remembers it all.
-
 
 ## Installation 📥
 
