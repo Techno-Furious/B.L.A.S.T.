@@ -1,6 +1,8 @@
 # B.L.A.S.T. 🚀
+
 **Bots Literally Annihilating Speed Tests**
-**Get ready to blast through speed tests like never before!** 🚀💥
+
+Get ready to blast through speed tests like never before! 🚀💥
 
 <p align="center">
   <img src="icons/logo512.png" alt="B.L.A.S.T. Logo">
