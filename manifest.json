@@ -1,0 +1,54 @@
+{
+  "manifest_version": 3,
+  "name": "B.L.A.S.T.",
+  "version": "2.1",
+  "description": "Bots Literally Annihilating Speed Tests|\n\nCurrent Bots:\n- Reaction Time\n- Aim Trainer\n- Number Memory\n- Verbal Memory\n\n|In Development:\n- Sequence Memory",
+  "permissions": ["scripting", "tabs", "activeTab"],
+  "host_permissions": [
+      "https://humanbenchmark.com/tests/reactiontime",
+      "https://humanbenchmark.com/tests/sequence",
+      "https://humanbenchmark.com/tests/aim",
+      "https://humanbenchmark.com/tests/number-memory",
+      "https://humanbenchmark.com/tests/verbal-memory"
+  ],
+  "background": {
+      "service_worker": "background.js"
+  },
+  "action": {
+      "default_popup": "popup.html",
+      "default_icon":  {
+            "16": "icons/logo16.png",
+            "48": "icons/logo48.png",
+            "128": "icons/logo128.png"
+  }
+
+  },
+  "content_scripts": [
+      {
+          "matches": ["https://humanbenchmark.com/tests/reactiontime"],
+          "js": ["reaction.js"]
+      },
+      {
+          "matches": ["https://humanbenchmark.com/tests/sequence"],
+          "js": ["sequence.js"]
+      },
+      {
+        "matches": ["https://humanbenchmark.com/tests/aim"],
+        "js": ["aim.js"]
+      },
+      {
+        "matches": ["https://humanbenchmark.com/tests/number-memory"],
+        "js": ["no_memory.js"]
+      },
+      {
+        "matches": ["https://humanbenchmark.com/tests/verbal-memory"],
+        "js": ["verbal_memory.js"]
+      }
+  ],
+  "icons": {
+  "16": "icons/logo16.png",
+  "48": "icons/logo48.png",
+  "128": "icons/logo128.png"
+  }
+
+}
