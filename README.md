@@ -1,11 +1,10 @@
 # B.L.A.S.T. 🚀
+**Bots Literally Annihilating Speed Tests**
 **Get ready to blast through speed tests like never before!** 🚀💥
 
 <p align="center">
   <img src="icons/logo512.png" alt="B.L.A.S.T. Logo">
 </p>
-
-**Bots Literally Annihilating Speed Tests**
 
 Welcome to B.L.A.S.T., the ultimate suite of bots designed to dominate speed tests on Human Benchmark! Whether you're looking to crush reaction time records, ace aim training, or master memory tests, B.L.A.S.T. has got you covered. Get ready to unleash the power of automation and achieve superhuman performance!
 
